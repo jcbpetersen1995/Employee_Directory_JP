@@ -1,0 +1,32 @@
+.employeeCards {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: 'Orbitron', sans-serif;
+}
+#allHeader {
+    padding-top: 50px;
+    font-family: 'Orbitron', sans-serif;
+}
+body {
+    background-color: lightblue;
+    background-image: url("https://www.transparenttextures.com/patterns/blu-stripes.png");
+}
+#name {
+    font-family: 'Orbitron', sans-serif;
+}
+#filterButton {
+    margin-top: 5px;
+}
+#refreshButton {
+    margin-left: 17px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #allHeader {
+        padding-bottom: 30px;
+    }
+}
