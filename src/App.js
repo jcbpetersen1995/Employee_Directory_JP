@@ -103,14 +103,12 @@ class App extends Component {
 
     render() {
         return (
-            <Router>
-                <Navbar />
-                <Route exact path = "/" component = {Home}/>
-                <Route exact path = "/all" component = {() => 
+            <div>    
+                <Navbar />             
                 <All employees={this.state.employees} handleSortChange={this.handleSortChange}
                  handleSelect={this.handleSelect} />} />
                  <Footer />      
-            </Router>
+            </div>
         )
     }
 };
